@@ -298,5 +298,11 @@ export default StyleSheet.create({
     borderTopWidth: 0,
     marginTop: 8,
     paddingLeft: 12
+  },
+  // Booking Confirmation
+  bookingConfirmText: {
+    fontSize: 22,
+    color: 'white',
+    fontFamily: main.font    
   }
 });
