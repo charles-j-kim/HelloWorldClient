@@ -33,8 +33,8 @@ class BookingPolicyScreen extends React.Component {
       travelerId: this.props.userProfile.profile.userId,
       guideFacebookId: this.props.profileSelection.selectedProfile.user.facebook_id,
       city: this.props.search.city,
-      startDateHr: `${this.props.search.date}, ${this.props.search.fromHour}:00`,
-      endDateHr: `${this.props.search.date}, ${this.props.search.toHour}:00`,
+      startDateHr: `${(new Date(this.props.search.date)).getTime() + this.props.search.fromHour * 3600000 }`,
+      endDateHr: `${(new Date(this.props.search.date)).getTime() + this.props.search.toHour * 3600000 }`,
       date: this.props.search.date,
       availabilityId: this.props.profileSelection.selectedProfile.availabilities[0].id
     };
