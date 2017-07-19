@@ -1,6 +1,6 @@
-# Project Name
+# Localize
 
-The project description
+Platform where tourists and local tour guides are seamlessly connected within a few taps. This is mobile client built on React Native.
 
 ## Team
 
@@ -19,15 +19,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 # Table of Contents
 
-1. [Usage](#Usage)
 1. [Requirements](#requirements)
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
     1. [Tasks](#tasks)
 
-## Usage
-
-> Some usage instructions
 
 ## Requirements
 
